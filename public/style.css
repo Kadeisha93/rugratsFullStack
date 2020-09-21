@@ -1,0 +1,16 @@
+  body{
+  padding-top:15px;
+  word-wrap:break-word;
+  background-color: rgb(252,110,0);
+}
+img{
+  height: 200px;
+}
+button, .btn{
+  background-color: rgb(43, 204, 192)
+}
+
+h1, h2, h3, .target{
+    font-family: 'Fredoka One', cursive;
+    color: rgb(70,211,0);
+}

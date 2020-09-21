@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <title>Rugrats Quiz</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header text-center">
+        <h1>Rugrats Quiz</h1>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+
+        <form action="/profile" method="put">
+          <!-- <h1><%= results[results.length-1].user %> 's Rugrats Character</h1> -->
+
+          <h2>Results: <%= results[results.length-1].total %>  <span>
+          </span></h2>
+
+          <h2>Take the quiz to learn which Rugrats character you are!</h2>
+          <section>
+            <p>1. What was your favorite toy?</p>
+            <div>
+              <!-- <h2><%= JSON.stringify(results) %></h2> -->
+              <h2><%= results[results.length-1].toy %></h2>
+            </div>
+          </section>
+          <section>
+            <p>2. What is your favorite dessert?</p>
+            <div>
+            <h2><%= results[results.length-1].dessert %></h2>
+            </div>
+          </section>
+          <section>
+            <p>3. What is your favorite Nickelodeon show?</p>
+            <div>
+              <h2><%= results[results.length-1].show %></h2>
+            </div>
+          </section>
+          <section>
+            <p>4. What is your favorite color?</p>
+            <div>
+              <h2><%= results[results.length-1].color %></h2>
+            </div>
+          </section>
+          <section>
+            <p>5. What is your favorite city?</p>
+            <div><h2><%= results[results.length-1].city %></h2>
+            </div>
+          </section>
+
+          <div>
+
+        </div>
+        </form>
+
+<script src="main.js"></script>
+
+</body>
+</html>
