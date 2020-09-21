@@ -1,2 +1,2 @@
 # rugratsFullStack
-public/img/rugScreen.png
+![rugratsPic](public/img/rugScreen.png)
