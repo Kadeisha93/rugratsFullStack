@@ -19,5 +19,5 @@ Creating this really helped me understand playing around with the data bases whi
 2. run npm install
 
 ## Usage
-1. run npm run savage
+1. run node server.js
 2. Navigate to localhost: 8080
