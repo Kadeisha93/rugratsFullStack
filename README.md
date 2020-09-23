@@ -8,7 +8,8 @@ I created a fullstack web application based on the classic Nickelodeon show, Rug
 
 ## How It's Made
 
-**Tech Used:** HTML, CSS, Javacrsipt, Express, Node.js, Mongo DB
+**Tech Used:** HTML, CSS, Javascript, Express, Node.js, Mongo DB
+
 This website is a quiz that allows you to answer a few multiple choice questions and reveive a result of a character. I made the basic functions of the sight run on the client side javascript page. All other functions that processes the result for the characters, were used on the back end, using Express and Node.js. All results are held in a database, so if the person with the same credentials logs back in, they can see the previous results.
 
 ## Lessons Learned
@@ -19,5 +20,5 @@ Creating this really helped me understand playing around with the data bases whi
 2. run npm install
 
 ## Usage
-1. run node server.js
-2. Navigate to localhost: 8080
+1. run `node server.js`
+2. Navigate to `localhost: 8080`
